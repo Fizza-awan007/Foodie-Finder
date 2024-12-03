@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.meal-heading {
+  margin: 20px;
+}
+
+input {
+  border: 2px solid #053b50;
+  font-size: 15px;
+  padding: 9px;
+  width: 400px;
+  margin: 20px;
+}
+
+.search-btn {
+  cursor: pointer;
+  width: 50px;
+  padding: 9px;
+  border: 2px solid #053b50;
+  color: #fff;
+  background-color: #176b87;
+}
+
+#container-recipe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.meal-box {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 24%;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.meal-box img {
+  width: 100%;
+}
+
+.meal-box img:hover {
+  opacity: 0.5;
+}
+
+.meal-box h3 {
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #176b87;
+  padding: 60px;
+  color: white;
+  height: 12vh;
+}
+
+.context1 {
+  padding: 30px;
+  text-align: center;
+}
+
+.context2 {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Meal Detail Container */
+.meal-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Meal Detail Content */
+.meal-detail-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Left Section (Image) */
+.meal-detail-content .left img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Right Section (Details) */
+.meal-detail-content .right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.meal-detail-content .right h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.meal-detail-content .right p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin: 5px 0;
+}
+
+.meal-detail-content .right h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Ingredients List */
+.meal-detail-content .right ul {
+  list-style-type: disc;
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+.meal-detail-content .right ul li {
+  font-size: 16px;
+  color: #444;
+  margin: 5px 0;
+}
+
+/* Back Button */
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
